@@ -1,0 +1,17 @@
+{
+  "tasks": {
+    "test": "deno test -A",
+    "knex": "deno run -A npm:knex@^3.1.0"
+  },
+  "imports": {
+    "@std/expect": "jsr:@std/expect@^1.0.13",
+    "@std/testing": "jsr:@std/testing@^1.0.9",
+    "knex": "npm:knex@^3.1.0",
+    "pg": "npm:pg@^8.13.3"
+  },
+  "fmt": {
+    "singleQuote": true,
+    "semiColons": false
+  },
+  "nodeModulesDir": "auto"
+}
